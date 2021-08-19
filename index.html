@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="cal-layout">
+      <table>
+        <tr>
+            <td>
+                <label for="table">Casio </label>
+            </td>
+          </tr>
+        <tr>
+          <td colspan="7">
+            <input id="display" type="text" disabled/>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="buttoncss" type="button" value="mrc" onclick="display_values('mrc')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="m-" onclick="display_values('m-')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="m+" onclick="display_values('m+')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="/" onclick="display_values('/')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="buttoncss" type="button" value="7" onclick="display_values('7')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="8" onclick="display_values('8')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="9" onclick="display_values('9')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="*" onclick="display_values('*')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="buttoncss" type="button" value="4" onclick="display_values('4')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="5" onclick="display_values('5')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="6" onclick="display_values('6')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="-" onclick="display_values('-')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="buttoncss" type="button" value="1" onclick="display_values('1')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="2" onclick="display_values('2')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="3" onclick="display_values('3')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="+" onclick="display_values('+')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="buttoncss" type="button" value="0" onclick="display_values('0')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="." onclick="display_values('.')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="C" onclick="display_values('C')">
+            </td>
+            <td>
+                <input class="buttoncss" type="button" value="=" onclick="result()">
+            </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

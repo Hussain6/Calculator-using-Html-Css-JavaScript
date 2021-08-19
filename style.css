@@ -1,0 +1,13 @@
+#cal-layout{
+background-color: green;
+width:20%;
+height:50%;
+border: 5px solid black;
+}
+.buttoncss{
+width: 40px;
+height: 35px;
+}
+table{
+  margin: 0px auto;
+}
